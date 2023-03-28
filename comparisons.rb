@@ -23,24 +23,31 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
 # this should print: true
+puts "Is number_teachers less than number_students?", number_teachers < number_students
 
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
 # this should print: false
+puts "Is number_teachers  string_teachers?", number_teachers == string_teachers
 
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
 # this should print: true
+puts "Is number_teachers not equal to number_students?", number_teachers != number_students
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
 # this should print: true
+puts "Is number of number_students greater than or equal to 20?", number_students >= 20
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
 # this should print: false
+puts "Is number of number_students greater than or equal to 21?", number_students >= 21
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
 # this should print: true
+puts "Is number_students less than or equal to 20?", number_students <= 20
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
 # this should print: true
+puts "Is number_students less than or equal to 21?", number_students <= 21 
 
 
 #-------------------
@@ -53,21 +60,21 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+#Comparing the two numbers, 4 and 9, using the comparison operator < which is less than. Can also be entred as: puts "4 less than 9". This command will print "true" since it is a Boolean. 
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+#Taking a varible declared books, and storing it as three with the assignment operator =. The puts command is comparing if the number 4 is less than the varible, books, which is stored as 3 with the comparison operator <. This command will print "false" since it is a Boolean.
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+#Taking two varibles declared friends and siblings. Then storing friends as 6 and siblings as 2 with the assignment operator =. The puts command is comapring the two varibles with the comparison operator > or greater than. Can also be read as: puts "6 greater than 2" This command will print "true" since it is a Boolean.
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+#Taking two varibles declared attendees and meals. Then stroing attendees as 9 and meals as 8 with the assignment variable =. The puts command is comparing the two varibles with comparison operator != or not equal. Can also be read as: puts "9 not equal to 8" This command will print "true" since it is a Boolean.
 
 
 #-------------------
@@ -90,15 +97,16 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
+puts loves_to_play && age
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: My final line of code evaluated true and 1. The code is telling me the dog loves to play and the age of the dog is 1, so it is in fact a puppy.
